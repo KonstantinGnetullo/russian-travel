@@ -10,7 +10,6 @@
   "place__title place__url"
   "place__image place__paragraphs";
   gap: 48px 40px;
-  /* border: 1px solid red; */
 }
 
 .place:last-of-type {
