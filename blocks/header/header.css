@@ -1,7 +1,6 @@
 .header {
   position: relative;
   max-width: calc(100% - 48px*2);
-  max-height: 52px;
   margin: 0 auto 56px;
   padding: 0;
   display: flex;
