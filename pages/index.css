@@ -1,6 +1,6 @@
 @import url(../vendor/normalize.css);
 
-@import url(../blocks/fonts/fonts.css);
+@import url(../vendor/fonts/fonts.css);
 
 /* body */
 @import url(../blocks/body/body.css);
@@ -52,9 +52,9 @@
 
 /* cover */
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
-@import url(../blocks/cover/__link/cover__link.css);
 
 
 /* footer */

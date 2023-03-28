@@ -1,6 +1,5 @@
 .footer__link {
   color:#FFF;
-  margin-right: 18px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -8,17 +7,18 @@
   text-decoration: none;
 }
 
+.footer__link:hover {
+  opacity: .8;
+}
+
 @media screen and (max-width: 740px) {
   .footer__link {
     max-width: calc(100% - 16px*2);
-    font-size: 3.24vw;
-    line-height: 100%;
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer__link {
-    max-width: calc(100% - 16px*2);
     font-size: 7.5vw;
   }
 }
